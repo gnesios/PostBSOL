@@ -1,0 +1,5 @@
+
+REM Inicia creación de clase de proxy del web service Contabiliza
+
+REM Servicio que tiene métodos para iniciar Flujos - workflows
+wsdl /l:CS /n:ProxyBsolContabiliza /o:Contabiliza.cs C:\Gnesios\Postilion\wsdl\contabiliza.wsdl

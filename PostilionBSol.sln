@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeneraATCRecon", "GeneraBsolRecon\GeneraATCRecon.csproj", "{D49114D0-17C8-45A3-9665-DB941A046C3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProxyBsolContabiliza", "ProxyBsolContabiliza\ProxyBsolContabiliza.csproj", "{B7C76673-F9EA-4AF7-9538-80D3F0559B1C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BsolContabilización", "BsolConciliacion\BsolContabilización.csproj", "{43EB695A-CE95-4601-A41A-BB4D6554437C}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup_BsolContabilizacion", "Setup_BsolConciliacion\Setup_BsolConciliacion.vdproj", "{8104759F-BC88-4745-9491-F6EC014372A0}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup_GeneraATCRecon", "Setup_GeneraBsolRecon\Setup_GeneraBsolRecon.vdproj", "{C919310C-697A-4C48-B6BF-6101BD4E462F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReportesCruceATC", "ReportesConciliacionATC\ReportesCruceATC.csproj", "{46F5B0EA-D604-4947-B434-EE920E33EB4A}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup_ReportesATC", "Setup_ReportesATC\Setup_ReportesATC.vdproj", "{E24DCD05-D44C-4E75-A147-26AB2B5A33C2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D49114D0-17C8-45A3-9665-DB941A046C3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D49114D0-17C8-45A3-9665-DB941A046C3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D49114D0-17C8-45A3-9665-DB941A046C3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D49114D0-17C8-45A3-9665-DB941A046C3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7C76673-F9EA-4AF7-9538-80D3F0559B1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7C76673-F9EA-4AF7-9538-80D3F0559B1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7C76673-F9EA-4AF7-9538-80D3F0559B1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7C76673-F9EA-4AF7-9538-80D3F0559B1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43EB695A-CE95-4601-A41A-BB4D6554437C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43EB695A-CE95-4601-A41A-BB4D6554437C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43EB695A-CE95-4601-A41A-BB4D6554437C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43EB695A-CE95-4601-A41A-BB4D6554437C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8104759F-BC88-4745-9491-F6EC014372A0}.Debug|Any CPU.ActiveCfg = Debug
+		{8104759F-BC88-4745-9491-F6EC014372A0}.Release|Any CPU.ActiveCfg = Release
+		{C919310C-697A-4C48-B6BF-6101BD4E462F}.Debug|Any CPU.ActiveCfg = Debug
+		{C919310C-697A-4C48-B6BF-6101BD4E462F}.Release|Any CPU.ActiveCfg = Release
+		{46F5B0EA-D604-4947-B434-EE920E33EB4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46F5B0EA-D604-4947-B434-EE920E33EB4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46F5B0EA-D604-4947-B434-EE920E33EB4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46F5B0EA-D604-4947-B434-EE920E33EB4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E24DCD05-D44C-4E75-A147-26AB2B5A33C2}.Debug|Any CPU.ActiveCfg = Debug
+		{E24DCD05-D44C-4E75-A147-26AB2B5A33C2}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
